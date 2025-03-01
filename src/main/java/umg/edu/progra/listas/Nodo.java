@@ -1,19 +1,12 @@
 package umg.edu.progra.listas;
 
-/**
- *
- * @author Walter Cordova
- */
 public class Nodo {
-
     int dato;
     Nodo enlace;
-    // Nodo enlaceSiguiente;
-    // Nodo enlaceAnterior;
 
     @Override
     public String toString() {
-        return dato + "=>" +  enlace;
+        return dato + "=>" + enlace;
     }
 
     public Nodo(int x) {
